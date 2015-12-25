@@ -16,6 +16,6 @@ RUN sed -i \
     -e "s/^post_max_size\s*=\s*8M/post_max_size = 64M/" \
     /etc/php/php.ini
 
-EXPOSE 8080
+EXPOSE 80
 
 ENTRYPOINT [ "/run.sh" ]
